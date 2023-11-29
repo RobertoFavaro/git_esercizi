@@ -1,4 +1,4 @@
-package oggetti1;
+package src;
 
 public class Studente {
     private String nome;
