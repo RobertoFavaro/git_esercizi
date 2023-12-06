@@ -67,7 +67,28 @@ public class Main {
             }
         }
     }
+    String[] arrayStringhe = {"Zebra", "Banana", "Mela", "Ananas", "Limone"};
+/*
+    // Ordina l'array in ordine alfabetico utilizzando Bubble Sort
+    int lunghezza = arrayStringhe.length;
+        for (int i = 0; i < lunghezza - 1; i++) {
+        for (int j = 0; j < lunghezza - i - 1; j++) {
+            if (arrayStringhe[j].compareTo(arrayStringhe[j + 1]) > 0) {
+                // Scambia le posizioni se l'elemento successivo è più piccolo
+                String temp = arrayStringhe[j];
+                arrayStringhe[j] = arrayStringhe[j + 1];
+                arrayStringhe[j + 1] = temp;
+            }
+        }
+    }
+
+    // Stampa l'array ordinato
+        System.out.println("Array ordinato in ordine alfabetico:");
+        for (String elemento : arrayStringhe) {
+        System.out.println(elemento);
+    }*/
 }
+
 
 
 

@@ -3,6 +3,20 @@ package lavorodigruppo;
 import java.util.ArrayList;
 
 public class Studente {
+
+
+    private StunentEnum tipoStudenteEnum;
+    public Studente(StunentEnum tipoStdenteEnum){
+        this.tipoStudenteEnum = tipoStdenteEnum;
+    }
+    public StunentEnum getTipoStudenteEnum(){
+        return tipoStudenteEnum;
+    }
+
+    public void setTipoStudenteEnum(StunentEnum tipoStudenteEnum) {
+        this.tipoStudenteEnum = tipoStudenteEnum;
+    }
+
     private String nome;
     private String cognome;
     private int età;
