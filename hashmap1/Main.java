@@ -21,11 +21,7 @@ public class Main {
         }};
         System.out.println(secondo);
 
-        // Metodo 3: Utilizzo di Stream API (Java 8 e versioni successive)
-        HashMap<String, Integer> terzo = new HashMap<>();
-        terzo.put("Sette", 7);
-        terzo.put("Otto", 8);
-        terzo.put("Nove", 9);
+        HashMap<String, Integer> terzo = new HashMap<>(Map.of("Sette", 7, "Otto", 8, "Nove", 9));
         System.out.println(terzo);
     }
 }
