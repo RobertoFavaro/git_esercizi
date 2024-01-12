@@ -6,10 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
     }
-    public Integer somma(Integer a,Integer b){
-        if(a == null || b == null){
-            return null;
-        }
+    public static Integer somma(Integer a,Integer b){
+
         return a + b;
     }
 }
