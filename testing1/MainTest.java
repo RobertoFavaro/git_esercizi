@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
-    private testing1.Main test = new testing1.Main();
+    private Main test = new Main();
 
     @Test
     void somma_di_due_integer() {
