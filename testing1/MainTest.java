@@ -30,7 +30,6 @@ class MainTest {
             Main.somma(null, 2);
         } catch (ArithmeticException e) {
             System.out.println("Abbiamo un eccezione");
-
         }
     }
 }

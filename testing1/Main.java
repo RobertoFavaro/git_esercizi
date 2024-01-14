@@ -7,7 +7,9 @@ public class Main {
 
     }
     public static Integer somma(Integer a,Integer b){
-
+    if(a == null && b == null){
+        throw new ArithmeticException("Questa operazione contiene null quindi non è eseguibile");
+    }
         return a + b;
     }
 }
