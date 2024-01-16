@@ -1,5 +1,5 @@
 package operatoreternario1;
-
+//Copia il seguente programma Java e sostutuisci il costrutto if-else con l'operatore ternario
 public class Main {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
