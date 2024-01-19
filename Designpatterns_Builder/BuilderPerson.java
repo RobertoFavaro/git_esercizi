@@ -1,25 +1,25 @@
 package Designpatterns_Builder;
 
-public class Builder {
+public class BuilderPerson {
     private String firstName;
     private String lastName;
     private int age;
     private String address;
-    public Builder() {
+    public BuilderPerson() {
     }
-    public Builder setFirstName(String firstName) {
+    public BuilderPerson setFirstName(String firstName) {
         this.firstName = firstName;
         return this;
     }
-    public Builder setLastName(String lastName) {
+    public BuilderPerson setLastName(String lastName) {
         this.lastName = lastName;
         return this;
     }
-    public Builder setAge(int age) {
+    public BuilderPerson setAge(int age) {
         this.age = age;
         return this;
     }
-    public Builder setAddress(String address) {
+    public BuilderPerson setAddress(String address) {
         this.address = address;
         return this;
     }

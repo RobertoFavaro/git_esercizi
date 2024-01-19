@@ -5,7 +5,7 @@ package Designpatterns_Builder;
 //Creare due oggetti Person e stamparli a video
 public class Main {
     public static void main(String[] args) {
-        Builder builder = new Builder();
+        BuilderPerson builder = new BuilderPerson();
 
         builder.setAddress("Piazza seconda 5");
         builder.setFirstName("Ferdinando");
